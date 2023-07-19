@@ -1,0 +1,54 @@
+.subtitleWrapper {
+  width: 100%;
+}
+
+.subtitleText {
+  text-align: left;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+
+.moviesGrid {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.paginate {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  cursor: pointer;
+}
+
+.paginate a {
+  color: white;
+  background-color: #C42521;
+  opacity: 0.6;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  padding: 12px 15px;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+
+.paginate a:hover:not(.paginateActive),
+.paginateActive a {
+  background-color: #C42521;
+  opacity: 1;
+}
+
+.paginate li:first-child a, .paginate li:last-child a {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 2px;
+}
+
+.paginate li:first-child a:hover, .paginate li:last-child a:hover {
+  background-color: transparent;
+}

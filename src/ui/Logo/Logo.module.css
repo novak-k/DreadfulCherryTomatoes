@@ -1,0 +1,21 @@
+.logoWrapper {
+  position: relative;
+  height: 60px;
+  min-width: 250px;
+}
+
+.logoText {
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 25px;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  z-index: 1;
+}
+
+.logoIcon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}

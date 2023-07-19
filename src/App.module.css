@@ -1,0 +1,11 @@
+.App {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.homeBox {
+  background-color: #282c34;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

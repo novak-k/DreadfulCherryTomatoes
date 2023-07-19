@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1rem + 2vmin);
+    justify-content: center;
+    margin: auto;
+    /* max-width: 90vw; */
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.titleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 80vw;
+  background-color: black;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #C42521;
+}
