@@ -15,6 +15,7 @@
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
+  transition: ease-out 0.5s;
 }
 
 .movieImage {
@@ -23,7 +24,7 @@
 }
 
 .movie:hover .movieInfo {
-  transition: ease-in 0.3s;
+  transition: ease-in 0.5s;
   height: 300px;
   cursor: pointer;
 }

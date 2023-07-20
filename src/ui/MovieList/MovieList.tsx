@@ -39,20 +39,21 @@ export const MovieList = () => {
   return (
     <>
       <div className={styles.subtitleWrapper}>
-        <p className={styles.subtitleText}>Popular Movies</p>
+        {!movieList.length ? <p className={styles.subtitleText}>NO MOVIES FOUND</p>
+          : <p className={styles.subtitleText}>Popular Movies</p>}
       </div>
       <div className={styles.moviesGrid}>{movieList}</div>
-        <ReactPaginate
-          activeClassName={styles.paginateActive}
-          className={styles.paginate}
-          breakLabel="..."
-          nextLabel=">"
-          onPageChange={handlePageClick}
-          pageRangeDisplayed={5}
-          pageCount={pageCount}
-          previousLabel="<"
-          renderOnZeroPageCount={undefined}
-        />
+      {!movieList.length ? null : (<ReactPaginate
+        activeClassName={styles.paginateActive}
+        className={styles.paginate}
+        breakLabel="..."
+        nextLabel=">"
+        onPageChange={handlePageClick}
+        pageRangeDisplayed={5}
+        pageCount={pageCount}
+        previousLabel="<"
+        renderOnZeroPageCount={undefined}
+      />)}
     </>
   );
 };

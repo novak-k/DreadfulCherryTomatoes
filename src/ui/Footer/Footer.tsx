@@ -4,10 +4,14 @@ import styles from "./Footer.module.css";
 export function Footer() {
   return (
     <footer className={styles.footer}>
-     <Logo/>
+      <Logo />
       <div className={styles.buttonWrapp}>
-      <button className={styles.buttonA}></button>
-      <button className={styles.buttonG}></button>
+        <a href="https://www.apple.com/app-store/">
+          <button className={styles.buttonA}></button>
+        </a>
+        <a href="https://play.google.com/store/games">
+          <button className={styles.buttonG}></button>
+        </a>
       </div>
       <p className={styles.copyright}>© Copyright 2022 Dreadful Tomatoes. All rights reserved.</p>
     </footer>
