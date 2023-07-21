@@ -13,7 +13,7 @@ export function Footer() {
           <button className={styles.buttonG}></button>
         </a>
       </div>
-      <p className={styles.copyright}>© Copyright 2022 Dreadful Tomatoes. All rights reserved.</p>
+      <p className={styles.copyright}>© Copyright 2022 Dreadful Cherry Tomatoes. All rights reserved.</p>
     </footer>
   );
 }
